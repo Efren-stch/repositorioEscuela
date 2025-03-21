@@ -15,6 +15,7 @@ public class Inicio {
         Historiales historiales = null;
         Ejecutable ejecutable = null;
         historiales = Historial.getInstance( );
+        System.out.println("Hola Efrén");
 
         while ( true ) {
             System.out.println(Salidas.principal);
